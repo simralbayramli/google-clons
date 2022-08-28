@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+img{
+
+    width: 24px;
+    height: 24px;
+}
+.container{
+    height:100vh;
+    display: flex; 
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    padding-top: 5px;
+    flex-basis: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    z-index: 10px;
+}
+ a{
+    
+    text-decoration: none;
+    color: #000;
+}
+.nav-bar .bars-icon:hover {
+    
+    background:  #3C40431A;
+    border-radius: 50%;
+    color: #000;
+    
+}
+   .nav-bar a:hover{
+    box-shadow: 0px 0px 3px rgba(175,145,145,0.87);
+    text-decoration: underline;
+   } 
+    
+
+
+.nav-bar button{
+    margin-right: 7px;
+    width: 50px;
+    height: 30px;
+    background:rgb(5, 194, 5);
+    color: #fff;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    gap: 10px;
+}
+.section-logo img{
+    width: 272px;
+    height: 92px;}
+.search-section input{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #dedede;
+    border-radius: 35px;
+    padding: 0 45px;
+}
+.search-section input:hover{
+    box-shadow: 0px 0px 3px rgba(175,145,145,0.87);
+}
+.search-section{
+    position: relative;
+    min-width: 582px;
+}
+.s-icon{
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    opacity: .4;
+}
+.sv-icon{
+    position: absolute;
+    top: 26%;
+    right: 3%;
+}
+
+section button{
+    background: #F8F9FA;
+
+    width: 144px;
+    height: 36px;
+    border: 1px solid #dede;
+    border-radius: 5px;
+}
+.buttons-grup{
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.buttons-grup button:hover{
+    box-shadow: 0px 0px 3px rgba(175,145,145,0.87);
+    border: 1px solid #F8F9FA;
+    cursor: pointer;
+}
+
+section a{
+    color: #1C0DAB;
+    padding: 10px;
+}
+
+
+
+footer{
+    
+    flex-basis: 10%;
+    
+    
+}
+footer h5{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    color: #70757a;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: #70757a;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+.footer-link{
+    display: flex;
+    padding: 20px 10px 5px;
+    justify-content: space-between;
+}
+.footer-link a:hover{
+    box-shadow: 0px 0px 3px rgba(175,145,145,0.87);
+}
